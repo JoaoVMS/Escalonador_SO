@@ -28,36 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.Id = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.Nome = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.Prioridade = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.Ciclos = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.listView2 = new System.Windows.Forms.ListView();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.listView3 = new System.Windows.Forms.ListView();
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.listView5 = new System.Windows.Forms.ListView();
-            this.columnHeader13 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader15 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader16 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.listView6 = new System.Windows.Forms.ListView();
-            this.columnHeader17 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader18 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader19 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader20 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.listView7 = new System.Windows.Forms.ListView();
-            this.columnHeader21 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader22 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader23 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader24 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listViewFilaPrioridade10 = new System.Windows.Forms.ListView();
+            this.CollumnId = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.CollumnName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.CollumnPrioridade = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.CollumnCiclos = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
@@ -72,23 +47,8 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.listView9 = new System.Windows.Forms.ListView();
-            this.columnHeader29 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader30 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader31 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader32 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label8 = new System.Windows.Forms.Label();
-            this.listView4 = new System.Windows.Forms.ListView();
-            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label9 = new System.Windows.Forms.Label();
-            this.listView8 = new System.Windows.Forms.ListView();
-            this.columnHeader25 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader26 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader27 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader28 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Principal = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.arquivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -104,103 +64,94 @@
             this.programadoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button6 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
-            this.listView10 = new System.Windows.Forms.ListView();
+            this.label17 = new System.Windows.Forms.Label();
+            this.listViewFilaPrioridade9 = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listViewFilaPrioridade8 = new System.Windows.Forms.ListView();
+            this.columnHeader13 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader15 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader16 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listViewFilaPrioridade5 = new System.Windows.Forms.ListView();
+            this.columnHeader17 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader18 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader19 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader20 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listViewFilaPrioridade6 = new System.Windows.Forms.ListView();
+            this.columnHeader21 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader22 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader23 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader24 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listViewFilaPrioridade2 = new System.Windows.Forms.ListView();
             this.columnHeader33 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader34 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader35 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader36 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.label17 = new System.Windows.Forms.Label();
-            this.listView11 = new System.Windows.Forms.ListView();
+            this.listViewFilaPrioridade1 = new System.Windows.Forms.ListView();
             this.columnHeader37 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader38 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader39 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader40 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listViewFilaPrioridade3 = new System.Windows.Forms.ListView();
+            this.columnHeader25 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader26 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader27 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader28 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listViewFilaPrioridade7 = new System.Windows.Forms.ListView();
+            this.columnHeader29 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader30 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader31 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader32 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listViewFilaSuspesa = new System.Windows.Forms.ListView();
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listViewFilaPrioridade4 = new System.Windows.Forms.ListView();
+            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.resumirProcessoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Principal.SuspendLayout();
             this.SuspendLayout();
             // 
-            // listView1
+            // listViewFilaPrioridade10
             // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.Id,
-            this.Nome,
-            this.Prioridade,
-            this.Ciclos});
-            this.listView1.Location = new System.Drawing.Point(325, 105);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(291, 151);
-            this.listView1.TabIndex = 0;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
+            this.listViewFilaPrioridade10.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.CollumnId,
+            this.CollumnName,
+            this.CollumnPrioridade,
+            this.CollumnCiclos});
+            this.listViewFilaPrioridade10.Location = new System.Drawing.Point(325, 105);
+            this.listViewFilaPrioridade10.Name = "listViewFilaPrioridade10";
+            this.listViewFilaPrioridade10.Size = new System.Drawing.Size(291, 151);
+            this.listViewFilaPrioridade10.TabIndex = 0;
+            this.listViewFilaPrioridade10.UseCompatibleStateImageBehavior = false;
+            this.listViewFilaPrioridade10.View = System.Windows.Forms.View.Details;
             // 
-            // listView2
+            // CollumnId
             // 
-            this.listView2.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader2,
-            this.columnHeader3,
-            this.columnHeader4});
-            this.listView2.Location = new System.Drawing.Point(639, 105);
-            this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(291, 151);
-            this.listView2.TabIndex = 1;
-            this.listView2.UseCompatibleStateImageBehavior = false;
-            this.listView2.View = System.Windows.Forms.View.Details;
+            this.CollumnId.Text = "Id";
+            this.CollumnId.Width = 30;
             // 
-            // listView3
+            // CollumnName
             // 
-            this.listView3.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader5,
-            this.columnHeader6,
-            this.columnHeader7,
-            this.columnHeader8});
-            this.listView3.Location = new System.Drawing.Point(12, 307);
-            this.listView3.Name = "listView3";
-            this.listView3.Size = new System.Drawing.Size(291, 151);
-            this.listView3.TabIndex = 2;
-            this.listView3.UseCompatibleStateImageBehavior = false;
-            this.listView3.View = System.Windows.Forms.View.Details;
+            this.CollumnName.Text = "Nome";
+            this.CollumnName.Width = 115;
             // 
-            // listView5
+            // CollumnPrioridade
             // 
-            this.listView5.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader13,
-            this.columnHeader14,
-            this.columnHeader15,
-            this.columnHeader16});
-            this.listView5.Location = new System.Drawing.Point(956, 105);
-            this.listView5.Name = "listView5";
-            this.listView5.Size = new System.Drawing.Size(291, 151);
-            this.listView5.TabIndex = 4;
-            this.listView5.UseCompatibleStateImageBehavior = false;
-            this.listView5.View = System.Windows.Forms.View.Details;
+            this.CollumnPrioridade.Text = "Prioridade";
+            this.CollumnPrioridade.Width = 70;
             // 
-            // listView6
+            // CollumnCiclos
             // 
-            this.listView6.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader17,
-            this.columnHeader18,
-            this.columnHeader19,
-            this.columnHeader20});
-            this.listView6.Location = new System.Drawing.Point(956, 307);
-            this.listView6.Name = "listView6";
-            this.listView6.Size = new System.Drawing.Size(291, 151);
-            this.listView6.TabIndex = 5;
-            this.listView6.UseCompatibleStateImageBehavior = false;
-            this.listView6.View = System.Windows.Forms.View.Details;
-            // 
-            // listView7
-            // 
-            this.listView7.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader21,
-            this.columnHeader22,
-            this.columnHeader23,
-            this.columnHeader24});
-            this.listView7.Location = new System.Drawing.Point(639, 307);
-            this.listView7.Name = "listView7";
-            this.listView7.Size = new System.Drawing.Size(291, 151);
-            this.listView7.TabIndex = 6;
-            this.listView7.UseCompatibleStateImageBehavior = false;
-            this.listView7.View = System.Windows.Forms.View.Details;
+            this.CollumnCiclos.Text = "Ciclos";
+            this.CollumnCiclos.Width = 70;
             // 
             // label1
             // 
@@ -328,20 +279,6 @@
             this.label16.TabIndex = 29;
             this.label16.Text = "Fila Prioridade 9";
             // 
-            // listView9
-            // 
-            this.listView9.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader29,
-            this.columnHeader30,
-            this.columnHeader31,
-            this.columnHeader32});
-            this.listView9.Location = new System.Drawing.Point(325, 307);
-            this.listView9.Name = "listView9";
-            this.listView9.Size = new System.Drawing.Size(291, 151);
-            this.listView9.TabIndex = 28;
-            this.listView9.UseCompatibleStateImageBehavior = false;
-            this.listView9.View = System.Windows.Forms.View.Details;
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -351,20 +288,6 @@
             this.label8.TabIndex = 31;
             this.label8.Text = "Fila Prioridade 4";
             // 
-            // listView4
-            // 
-            this.listView4.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader9,
-            this.columnHeader10,
-            this.columnHeader11,
-            this.columnHeader12});
-            this.listView4.Location = new System.Drawing.Point(12, 508);
-            this.listView4.Name = "listView4";
-            this.listView4.Size = new System.Drawing.Size(291, 151);
-            this.listView4.TabIndex = 30;
-            this.listView4.UseCompatibleStateImageBehavior = false;
-            this.listView4.View = System.Windows.Forms.View.Details;
-            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -373,20 +296,6 @@
             this.label9.Size = new System.Drawing.Size(82, 13);
             this.label9.TabIndex = 33;
             this.label9.Text = "Fila Prioridade 3";
-            // 
-            // listView8
-            // 
-            this.listView8.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader25,
-            this.columnHeader26,
-            this.columnHeader27,
-            this.columnHeader28});
-            this.listView8.Location = new System.Drawing.Point(325, 508);
-            this.listView8.Name = "listView8";
-            this.listView8.Size = new System.Drawing.Size(291, 151);
-            this.listView8.TabIndex = 32;
-            this.listView8.UseCompatibleStateImageBehavior = false;
-            this.listView8.View = System.Windows.Forms.View.Details;
             // 
             // Principal
             // 
@@ -421,7 +330,7 @@
             // leituraDoArquivoToolStripMenuItem
             // 
             this.leituraDoArquivoToolStripMenuItem.Name = "leituraDoArquivoToolStripMenuItem";
-            this.leituraDoArquivoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.leituraDoArquivoToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.leituraDoArquivoToolStripMenuItem.Text = "Leitura do Arquivo";
             this.leituraDoArquivoToolStripMenuItem.Click += new System.EventHandler(this.LeituraDoArquivoToolStripMenuItem_Click);
             // 
@@ -429,21 +338,22 @@
             // 
             this.processosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.criarProcessoToolStripMenuItem,
-            this.modificarProcessoToolStripMenuItem});
+            this.modificarProcessoToolStripMenuItem,
+            this.resumirProcessoToolStripMenuItem});
             this.processosToolStripMenuItem.Name = "processosToolStripMenuItem";
-            this.processosToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.processosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.processosToolStripMenuItem.Text = "Processos";
             // 
             // criarProcessoToolStripMenuItem
             // 
             this.criarProcessoToolStripMenuItem.Name = "criarProcessoToolStripMenuItem";
-            this.criarProcessoToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.criarProcessoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.criarProcessoToolStripMenuItem.Text = "Criar Processo";
             // 
             // modificarProcessoToolStripMenuItem
             // 
             this.modificarProcessoToolStripMenuItem.Name = "modificarProcessoToolStripMenuItem";
-            this.modificarProcessoToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.modificarProcessoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.modificarProcessoToolStripMenuItem.Text = "Modificar Processo";
             // 
             // simulaçãoToolStripMenuItem
@@ -452,7 +362,7 @@
             this.iniciarSimulaçãoToolStripMenuItem,
             this.pausarSimulaçãoToolStripMenuItem});
             this.simulaçãoToolStripMenuItem.Name = "simulaçãoToolStripMenuItem";
-            this.simulaçãoToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.simulaçãoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.simulaçãoToolStripMenuItem.Text = "Simulação";
             // 
             // iniciarSimulaçãoToolStripMenuItem
@@ -470,7 +380,7 @@
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.sairToolStripMenuItem.Text = "Sair";
             // 
             // sobreToolStripMenuItem
@@ -505,20 +415,6 @@
             this.label10.TabIndex = 40;
             this.label10.Text = "Fila Prioridade 2";
             // 
-            // listView10
-            // 
-            this.listView10.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader33,
-            this.columnHeader34,
-            this.columnHeader35,
-            this.columnHeader36});
-            this.listView10.Location = new System.Drawing.Point(639, 508);
-            this.listView10.Name = "listView10";
-            this.listView10.Size = new System.Drawing.Size(291, 151);
-            this.listView10.TabIndex = 39;
-            this.listView10.UseCompatibleStateImageBehavior = false;
-            this.listView10.View = System.Windows.Forms.View.Details;
-            // 
             // label17
             // 
             this.label17.AutoSize = true;
@@ -528,36 +424,373 @@
             this.label17.TabIndex = 42;
             this.label17.Text = "Fila Prioridade 1";
             // 
-            // listView11
+            // listViewFilaPrioridade9
             // 
-            this.listView11.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.listViewFilaPrioridade9.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3,
+            this.columnHeader4});
+            this.listViewFilaPrioridade9.Location = new System.Drawing.Point(639, 105);
+            this.listViewFilaPrioridade9.Name = "listViewFilaPrioridade9";
+            this.listViewFilaPrioridade9.Size = new System.Drawing.Size(291, 151);
+            this.listViewFilaPrioridade9.TabIndex = 43;
+            this.listViewFilaPrioridade9.UseCompatibleStateImageBehavior = false;
+            this.listViewFilaPrioridade9.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "Id";
+            this.columnHeader1.Width = 30;
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Nome";
+            this.columnHeader2.Width = 115;
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "Prioridade";
+            this.columnHeader3.Width = 70;
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "Ciclos";
+            this.columnHeader4.Width = 70;
+            // 
+            // listViewFilaPrioridade8
+            // 
+            this.listViewFilaPrioridade8.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader13,
+            this.columnHeader14,
+            this.columnHeader15,
+            this.columnHeader16});
+            this.listViewFilaPrioridade8.Location = new System.Drawing.Point(956, 105);
+            this.listViewFilaPrioridade8.Name = "listViewFilaPrioridade8";
+            this.listViewFilaPrioridade8.Size = new System.Drawing.Size(291, 151);
+            this.listViewFilaPrioridade8.TabIndex = 44;
+            this.listViewFilaPrioridade8.UseCompatibleStateImageBehavior = false;
+            this.listViewFilaPrioridade8.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader13
+            // 
+            this.columnHeader13.Text = "Id";
+            this.columnHeader13.Width = 30;
+            // 
+            // columnHeader14
+            // 
+            this.columnHeader14.Text = "Nome";
+            this.columnHeader14.Width = 115;
+            // 
+            // columnHeader15
+            // 
+            this.columnHeader15.Text = "Prioridade";
+            this.columnHeader15.Width = 70;
+            // 
+            // columnHeader16
+            // 
+            this.columnHeader16.Text = "Ciclos";
+            this.columnHeader16.Width = 70;
+            // 
+            // listViewFilaPrioridade5
+            // 
+            this.listViewFilaPrioridade5.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader17,
+            this.columnHeader18,
+            this.columnHeader19,
+            this.columnHeader20});
+            this.listViewFilaPrioridade5.Location = new System.Drawing.Point(956, 307);
+            this.listViewFilaPrioridade5.Name = "listViewFilaPrioridade5";
+            this.listViewFilaPrioridade5.Size = new System.Drawing.Size(291, 151);
+            this.listViewFilaPrioridade5.TabIndex = 45;
+            this.listViewFilaPrioridade5.UseCompatibleStateImageBehavior = false;
+            this.listViewFilaPrioridade5.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader17
+            // 
+            this.columnHeader17.Text = "Id";
+            this.columnHeader17.Width = 30;
+            // 
+            // columnHeader18
+            // 
+            this.columnHeader18.Text = "Nome";
+            this.columnHeader18.Width = 115;
+            // 
+            // columnHeader19
+            // 
+            this.columnHeader19.Text = "Prioridade";
+            this.columnHeader19.Width = 70;
+            // 
+            // columnHeader20
+            // 
+            this.columnHeader20.Text = "Ciclos";
+            this.columnHeader20.Width = 70;
+            // 
+            // listViewFilaPrioridade6
+            // 
+            this.listViewFilaPrioridade6.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader21,
+            this.columnHeader22,
+            this.columnHeader23,
+            this.columnHeader24});
+            this.listViewFilaPrioridade6.Location = new System.Drawing.Point(639, 307);
+            this.listViewFilaPrioridade6.Name = "listViewFilaPrioridade6";
+            this.listViewFilaPrioridade6.Size = new System.Drawing.Size(291, 151);
+            this.listViewFilaPrioridade6.TabIndex = 46;
+            this.listViewFilaPrioridade6.UseCompatibleStateImageBehavior = false;
+            this.listViewFilaPrioridade6.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader21
+            // 
+            this.columnHeader21.Text = "Id";
+            this.columnHeader21.Width = 30;
+            // 
+            // columnHeader22
+            // 
+            this.columnHeader22.Text = "Nome";
+            this.columnHeader22.Width = 115;
+            // 
+            // columnHeader23
+            // 
+            this.columnHeader23.Text = "Prioridade";
+            this.columnHeader23.Width = 70;
+            // 
+            // columnHeader24
+            // 
+            this.columnHeader24.Text = "Ciclos";
+            this.columnHeader24.Width = 70;
+            // 
+            // listViewFilaPrioridade2
+            // 
+            this.listViewFilaPrioridade2.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader33,
+            this.columnHeader34,
+            this.columnHeader35,
+            this.columnHeader36});
+            this.listViewFilaPrioridade2.Location = new System.Drawing.Point(639, 508);
+            this.listViewFilaPrioridade2.Name = "listViewFilaPrioridade2";
+            this.listViewFilaPrioridade2.Size = new System.Drawing.Size(291, 151);
+            this.listViewFilaPrioridade2.TabIndex = 47;
+            this.listViewFilaPrioridade2.UseCompatibleStateImageBehavior = false;
+            this.listViewFilaPrioridade2.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader33
+            // 
+            this.columnHeader33.Text = "Id";
+            this.columnHeader33.Width = 30;
+            // 
+            // columnHeader34
+            // 
+            this.columnHeader34.Text = "Nome";
+            this.columnHeader34.Width = 115;
+            // 
+            // columnHeader35
+            // 
+            this.columnHeader35.Text = "Prioridade";
+            this.columnHeader35.Width = 70;
+            // 
+            // columnHeader36
+            // 
+            this.columnHeader36.Text = "Ciclos";
+            this.columnHeader36.Width = 70;
+            // 
+            // listViewFilaPrioridade1
+            // 
+            this.listViewFilaPrioridade1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader37,
             this.columnHeader38,
             this.columnHeader39,
             this.columnHeader40});
-            this.listView11.Location = new System.Drawing.Point(956, 508);
-            this.listView11.Name = "listView11";
-            this.listView11.Size = new System.Drawing.Size(291, 151);
-            this.listView11.TabIndex = 41;
-            this.listView11.UseCompatibleStateImageBehavior = false;
-            this.listView11.View = System.Windows.Forms.View.Details;
+            this.listViewFilaPrioridade1.Location = new System.Drawing.Point(956, 508);
+            this.listViewFilaPrioridade1.Name = "listViewFilaPrioridade1";
+            this.listViewFilaPrioridade1.Size = new System.Drawing.Size(291, 151);
+            this.listViewFilaPrioridade1.TabIndex = 48;
+            this.listViewFilaPrioridade1.UseCompatibleStateImageBehavior = false;
+            this.listViewFilaPrioridade1.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader37
+            // 
+            this.columnHeader37.Text = "Id";
+            this.columnHeader37.Width = 30;
+            // 
+            // columnHeader38
+            // 
+            this.columnHeader38.Text = "Nome";
+            this.columnHeader38.Width = 115;
+            // 
+            // columnHeader39
+            // 
+            this.columnHeader39.Text = "Prioridade";
+            this.columnHeader39.Width = 70;
+            // 
+            // columnHeader40
+            // 
+            this.columnHeader40.Text = "Ciclos";
+            this.columnHeader40.Width = 70;
+            // 
+            // listViewFilaPrioridade3
+            // 
+            this.listViewFilaPrioridade3.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader25,
+            this.columnHeader26,
+            this.columnHeader27,
+            this.columnHeader28});
+            this.listViewFilaPrioridade3.Location = new System.Drawing.Point(325, 508);
+            this.listViewFilaPrioridade3.Name = "listViewFilaPrioridade3";
+            this.listViewFilaPrioridade3.Size = new System.Drawing.Size(291, 151);
+            this.listViewFilaPrioridade3.TabIndex = 49;
+            this.listViewFilaPrioridade3.UseCompatibleStateImageBehavior = false;
+            this.listViewFilaPrioridade3.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader25
+            // 
+            this.columnHeader25.Text = "Id";
+            this.columnHeader25.Width = 30;
+            // 
+            // columnHeader26
+            // 
+            this.columnHeader26.Text = "Nome";
+            this.columnHeader26.Width = 115;
+            // 
+            // columnHeader27
+            // 
+            this.columnHeader27.Text = "Prioridade";
+            this.columnHeader27.Width = 70;
+            // 
+            // columnHeader28
+            // 
+            this.columnHeader28.Text = "Ciclos";
+            this.columnHeader28.Width = 70;
+            // 
+            // listViewFilaPrioridade7
+            // 
+            this.listViewFilaPrioridade7.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader29,
+            this.columnHeader30,
+            this.columnHeader31,
+            this.columnHeader32});
+            this.listViewFilaPrioridade7.Location = new System.Drawing.Point(325, 307);
+            this.listViewFilaPrioridade7.Name = "listViewFilaPrioridade7";
+            this.listViewFilaPrioridade7.Size = new System.Drawing.Size(291, 151);
+            this.listViewFilaPrioridade7.TabIndex = 50;
+            this.listViewFilaPrioridade7.UseCompatibleStateImageBehavior = false;
+            this.listViewFilaPrioridade7.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader29
+            // 
+            this.columnHeader29.Text = "Id";
+            this.columnHeader29.Width = 30;
+            // 
+            // columnHeader30
+            // 
+            this.columnHeader30.Text = "Nome";
+            this.columnHeader30.Width = 115;
+            // 
+            // columnHeader31
+            // 
+            this.columnHeader31.Text = "Prioridade";
+            this.columnHeader31.Width = 70;
+            // 
+            // columnHeader32
+            // 
+            this.columnHeader32.Text = "Ciclos";
+            this.columnHeader32.Width = 70;
+            // 
+            // listViewFilaSuspesa
+            // 
+            this.listViewFilaSuspesa.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader5,
+            this.columnHeader6,
+            this.columnHeader7,
+            this.columnHeader8});
+            this.listViewFilaSuspesa.Location = new System.Drawing.Point(12, 307);
+            this.listViewFilaSuspesa.Name = "listViewFilaSuspesa";
+            this.listViewFilaSuspesa.Size = new System.Drawing.Size(291, 151);
+            this.listViewFilaSuspesa.TabIndex = 51;
+            this.listViewFilaSuspesa.UseCompatibleStateImageBehavior = false;
+            this.listViewFilaSuspesa.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "Id";
+            this.columnHeader5.Width = 30;
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "Nome";
+            this.columnHeader6.Width = 115;
+            // 
+            // columnHeader7
+            // 
+            this.columnHeader7.Text = "Prioridade";
+            this.columnHeader7.Width = 70;
+            // 
+            // columnHeader8
+            // 
+            this.columnHeader8.Text = "Ciclos";
+            this.columnHeader8.Width = 70;
+            // 
+            // listViewFilaPrioridade4
+            // 
+            this.listViewFilaPrioridade4.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader9,
+            this.columnHeader10,
+            this.columnHeader11,
+            this.columnHeader12});
+            this.listViewFilaPrioridade4.Location = new System.Drawing.Point(12, 508);
+            this.listViewFilaPrioridade4.Name = "listViewFilaPrioridade4";
+            this.listViewFilaPrioridade4.Size = new System.Drawing.Size(291, 151);
+            this.listViewFilaPrioridade4.TabIndex = 52;
+            this.listViewFilaPrioridade4.UseCompatibleStateImageBehavior = false;
+            this.listViewFilaPrioridade4.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader9
+            // 
+            this.columnHeader9.Text = "Id";
+            this.columnHeader9.Width = 30;
+            // 
+            // columnHeader10
+            // 
+            this.columnHeader10.Text = "Nome";
+            this.columnHeader10.Width = 115;
+            // 
+            // columnHeader11
+            // 
+            this.columnHeader11.Text = "Prioridade";
+            this.columnHeader11.Width = 70;
+            // 
+            // columnHeader12
+            // 
+            this.columnHeader12.Text = "Ciclos";
+            this.columnHeader12.Width = 70;
+            // 
+            // resumirProcessoToolStripMenuItem
+            // 
+            this.resumirProcessoToolStripMenuItem.Name = "resumirProcessoToolStripMenuItem";
+            this.resumirProcessoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.resumirProcessoToolStripMenuItem.Text = "Resumir Processo";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1259, 671);
+            this.Controls.Add(this.listViewFilaPrioridade4);
+            this.Controls.Add(this.listViewFilaSuspesa);
+            this.Controls.Add(this.listViewFilaPrioridade7);
+            this.Controls.Add(this.listViewFilaPrioridade3);
+            this.Controls.Add(this.listViewFilaPrioridade1);
+            this.Controls.Add(this.listViewFilaPrioridade2);
+            this.Controls.Add(this.listViewFilaPrioridade6);
+            this.Controls.Add(this.listViewFilaPrioridade5);
+            this.Controls.Add(this.listViewFilaPrioridade8);
+            this.Controls.Add(this.listViewFilaPrioridade9);
             this.Controls.Add(this.label17);
-            this.Controls.Add(this.listView11);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.listView10);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.listView8);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.listView4);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.listView9);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
@@ -571,12 +804,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.listView7);
-            this.Controls.Add(this.listView6);
-            this.Controls.Add(this.listView5);
-            this.Controls.Add(this.listView3);
-            this.Controls.Add(this.listView2);
-            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.listViewFilaPrioridade10);
             this.Controls.Add(this.Principal);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.Principal;
@@ -595,36 +823,11 @@
 
         #endregion
 
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.ColumnHeader Id;
-        private System.Windows.Forms.ColumnHeader Nome;
-        private System.Windows.Forms.ColumnHeader Prioridade;
-        private System.Windows.Forms.ColumnHeader Ciclos;
-        private System.Windows.Forms.ListView listView2;
-        private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.ColumnHeader columnHeader2;
-        private System.Windows.Forms.ColumnHeader columnHeader3;
-        private System.Windows.Forms.ColumnHeader columnHeader4;
-        private System.Windows.Forms.ListView listView3;
-        private System.Windows.Forms.ColumnHeader columnHeader5;
-        private System.Windows.Forms.ColumnHeader columnHeader6;
-        private System.Windows.Forms.ColumnHeader columnHeader7;
-        private System.Windows.Forms.ColumnHeader columnHeader8;
-        private System.Windows.Forms.ListView listView5;
-        private System.Windows.Forms.ColumnHeader columnHeader13;
-        private System.Windows.Forms.ColumnHeader columnHeader14;
-        private System.Windows.Forms.ColumnHeader columnHeader15;
-        private System.Windows.Forms.ColumnHeader columnHeader16;
-        private System.Windows.Forms.ListView listView6;
-        private System.Windows.Forms.ColumnHeader columnHeader17;
-        private System.Windows.Forms.ColumnHeader columnHeader18;
-        private System.Windows.Forms.ColumnHeader columnHeader19;
-        private System.Windows.Forms.ColumnHeader columnHeader20;
-        private System.Windows.Forms.ListView listView7;
-        private System.Windows.Forms.ColumnHeader columnHeader21;
-        private System.Windows.Forms.ColumnHeader columnHeader22;
-        private System.Windows.Forms.ColumnHeader columnHeader23;
-        private System.Windows.Forms.ColumnHeader columnHeader24;
+        private System.Windows.Forms.ListView listViewFilaPrioridade10;
+        private System.Windows.Forms.ColumnHeader CollumnId;
+        private System.Windows.Forms.ColumnHeader CollumnName;
+        private System.Windows.Forms.ColumnHeader CollumnPrioridade;
+        private System.Windows.Forms.ColumnHeader CollumnCiclos;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button3;
@@ -639,23 +842,8 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.ListView listView9;
-        private System.Windows.Forms.ColumnHeader columnHeader29;
-        private System.Windows.Forms.ColumnHeader columnHeader30;
-        private System.Windows.Forms.ColumnHeader columnHeader31;
-        private System.Windows.Forms.ColumnHeader columnHeader32;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.ListView listView4;
-        private System.Windows.Forms.ColumnHeader columnHeader9;
-        private System.Windows.Forms.ColumnHeader columnHeader10;
-        private System.Windows.Forms.ColumnHeader columnHeader11;
-        private System.Windows.Forms.ColumnHeader columnHeader12;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ListView listView8;
-        private System.Windows.Forms.ColumnHeader columnHeader25;
-        private System.Windows.Forms.ColumnHeader columnHeader26;
-        private System.Windows.Forms.ColumnHeader columnHeader27;
-        private System.Windows.Forms.ColumnHeader columnHeader28;
         private System.Windows.Forms.MenuStrip Principal;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.Button button6;
@@ -671,17 +859,58 @@
         private System.Windows.Forms.ToolStripMenuItem iniciarSimulaçãoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pausarSimulaçãoToolStripMenuItem;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.ListView listView10;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.ListView listViewFilaPrioridade9;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.ToolStripMenuItem resumirProcessoToolStripMenuItem;
+        private System.Windows.Forms.ListView listViewFilaPrioridade8;
+        private System.Windows.Forms.ColumnHeader columnHeader13;
+        private System.Windows.Forms.ColumnHeader columnHeader14;
+        private System.Windows.Forms.ColumnHeader columnHeader15;
+        private System.Windows.Forms.ColumnHeader columnHeader16;
+        private System.Windows.Forms.ListView listViewFilaPrioridade5;
+        private System.Windows.Forms.ColumnHeader columnHeader17;
+        private System.Windows.Forms.ColumnHeader columnHeader18;
+        private System.Windows.Forms.ColumnHeader columnHeader19;
+        private System.Windows.Forms.ColumnHeader columnHeader20;
+        private System.Windows.Forms.ListView listViewFilaPrioridade6;
+        private System.Windows.Forms.ColumnHeader columnHeader21;
+        private System.Windows.Forms.ColumnHeader columnHeader22;
+        private System.Windows.Forms.ColumnHeader columnHeader23;
+        private System.Windows.Forms.ColumnHeader columnHeader24;
+        private System.Windows.Forms.ListView listViewFilaPrioridade2;
         private System.Windows.Forms.ColumnHeader columnHeader33;
         private System.Windows.Forms.ColumnHeader columnHeader34;
         private System.Windows.Forms.ColumnHeader columnHeader35;
         private System.Windows.Forms.ColumnHeader columnHeader36;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.ListView listView11;
+        private System.Windows.Forms.ListView listViewFilaPrioridade1;
         private System.Windows.Forms.ColumnHeader columnHeader37;
         private System.Windows.Forms.ColumnHeader columnHeader38;
         private System.Windows.Forms.ColumnHeader columnHeader39;
         private System.Windows.Forms.ColumnHeader columnHeader40;
+        private System.Windows.Forms.ListView listViewFilaPrioridade3;
+        private System.Windows.Forms.ColumnHeader columnHeader25;
+        private System.Windows.Forms.ColumnHeader columnHeader26;
+        private System.Windows.Forms.ColumnHeader columnHeader27;
+        private System.Windows.Forms.ColumnHeader columnHeader28;
+        private System.Windows.Forms.ListView listViewFilaPrioridade7;
+        private System.Windows.Forms.ColumnHeader columnHeader29;
+        private System.Windows.Forms.ColumnHeader columnHeader30;
+        private System.Windows.Forms.ColumnHeader columnHeader31;
+        private System.Windows.Forms.ColumnHeader columnHeader32;
+        private System.Windows.Forms.ListView listViewFilaSuspesa;
+        private System.Windows.Forms.ColumnHeader columnHeader5;
+        private System.Windows.Forms.ColumnHeader columnHeader6;
+        private System.Windows.Forms.ColumnHeader columnHeader7;
+        private System.Windows.Forms.ColumnHeader columnHeader8;
+        private System.Windows.Forms.ListView listViewFilaPrioridade4;
+        private System.Windows.Forms.ColumnHeader columnHeader9;
+        private System.Windows.Forms.ColumnHeader columnHeader10;
+        private System.Windows.Forms.ColumnHeader columnHeader11;
+        private System.Windows.Forms.ColumnHeader columnHeader12;
     }
 }
 
