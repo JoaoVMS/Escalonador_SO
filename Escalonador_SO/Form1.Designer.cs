@@ -126,6 +126,7 @@
             this.CollumnName,
             this.CollumnPrioridade,
             this.CollumnCiclos});
+            this.listViewFilaPrioridade10.FullRowSelect = true;
             this.listViewFilaPrioridade10.Location = new System.Drawing.Point(325, 105);
             this.listViewFilaPrioridade10.Name = "listViewFilaPrioridade10";
             this.listViewFilaPrioridade10.Size = new System.Drawing.Size(291, 151);
