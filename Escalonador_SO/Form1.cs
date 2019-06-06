@@ -71,5 +71,12 @@ namespace Escalonador_SO
                 default: break;
             }
         }
+
+        private void SairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("O processo será perdido, tem certeza que deseja fechar o escalonador?", "Sair", MessageBoxButtons.YesNo);
+            if (result == System.Windows.Forms.DialogResult.Yes)
+                this.Close();
+        }
     }
 }
