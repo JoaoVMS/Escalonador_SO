@@ -21,6 +21,7 @@ namespace Escalonador_SO
             this.Prioridade = Prioridade;
             this.QtdeCiclos = QtdeCiclos;
         }
+
         /// <summary>
         /// Diminui a quantidade de ciclos do processo em 1 ciclo
         /// </summary>
@@ -29,6 +30,7 @@ namespace Escalonador_SO
             if (QtdeCiclos > 0)
                 QtdeCiclos--;
         }
+        
         /// <summary>
         /// Diminui a prioridade. Sendo 10 a menor prioridade e 1, a maior prioridade.
         /// </summary>
@@ -37,6 +39,7 @@ namespace Escalonador_SO
             if (Prioridade < 10)
                 Prioridade++;
         }
+        
         /// <summary>
         /// Aumenta a prioridade. Sendo 10 a menor prioridade e 1, a maior prioridade.
         /// </summary>
@@ -45,7 +48,7 @@ namespace Escalonador_SO
             if (Prioridade > 1)
                 Prioridade--;
         }
-
+        
         public override string ToString()
         {
             return string.Format(" PID: {0} Nome: {1} Prioridade: {2} Quantidade de Ciclos: {3}.", PID, Nome, Prioridade, QtdeCiclos);
