@@ -98,11 +98,11 @@
             this.modificarProcessoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.simulaçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.iniciarSimulaçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pausarSimulaçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.programadoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button6 = new System.Windows.Forms.Button();
-            this.pausarSimulaçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label10 = new System.Windows.Forms.Label();
             this.listView10 = new System.Windows.Forms.ListView();
             this.columnHeader33 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -423,6 +423,7 @@
             this.leituraDoArquivoToolStripMenuItem.Name = "leituraDoArquivoToolStripMenuItem";
             this.leituraDoArquivoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.leituraDoArquivoToolStripMenuItem.Text = "Leitura do Arquivo";
+            this.leituraDoArquivoToolStripMenuItem.Click += new System.EventHandler(this.LeituraDoArquivoToolStripMenuItem_Click);
             // 
             // processosToolStripMenuItem
             // 
@@ -430,19 +431,19 @@
             this.criarProcessoToolStripMenuItem,
             this.modificarProcessoToolStripMenuItem});
             this.processosToolStripMenuItem.Name = "processosToolStripMenuItem";
-            this.processosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.processosToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
             this.processosToolStripMenuItem.Text = "Processos";
             // 
             // criarProcessoToolStripMenuItem
             // 
             this.criarProcessoToolStripMenuItem.Name = "criarProcessoToolStripMenuItem";
-            this.criarProcessoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.criarProcessoToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.criarProcessoToolStripMenuItem.Text = "Criar Processo";
             // 
             // modificarProcessoToolStripMenuItem
             // 
             this.modificarProcessoToolStripMenuItem.Name = "modificarProcessoToolStripMenuItem";
-            this.modificarProcessoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.modificarProcessoToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.modificarProcessoToolStripMenuItem.Text = "Modificar Processo";
             // 
             // simulaçãoToolStripMenuItem
@@ -451,19 +452,25 @@
             this.iniciarSimulaçãoToolStripMenuItem,
             this.pausarSimulaçãoToolStripMenuItem});
             this.simulaçãoToolStripMenuItem.Name = "simulaçãoToolStripMenuItem";
-            this.simulaçãoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.simulaçãoToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
             this.simulaçãoToolStripMenuItem.Text = "Simulação";
             // 
             // iniciarSimulaçãoToolStripMenuItem
             // 
             this.iniciarSimulaçãoToolStripMenuItem.Name = "iniciarSimulaçãoToolStripMenuItem";
-            this.iniciarSimulaçãoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.iniciarSimulaçãoToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.iniciarSimulaçãoToolStripMenuItem.Text = "Iniciar Simulação";
+            // 
+            // pausarSimulaçãoToolStripMenuItem
+            // 
+            this.pausarSimulaçãoToolStripMenuItem.Name = "pausarSimulaçãoToolStripMenuItem";
+            this.pausarSimulaçãoToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.pausarSimulaçãoToolStripMenuItem.Text = "Pausar Simulação";
             // 
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
             this.sairToolStripMenuItem.Text = "Sair";
             // 
             // sobreToolStripMenuItem
@@ -488,12 +495,6 @@
             this.button6.TabIndex = 38;
             this.button6.Text = "Suspender Processo";
             this.button6.UseVisualStyleBackColor = true;
-            // 
-            // pausarSimulaçãoToolStripMenuItem
-            // 
-            this.pausarSimulaçãoToolStripMenuItem.Name = "pausarSimulaçãoToolStripMenuItem";
-            this.pausarSimulaçãoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.pausarSimulaçãoToolStripMenuItem.Text = "Pausar Simulação";
             // 
             // label10
             // 
@@ -577,6 +578,7 @@
             this.Controls.Add(this.listView2);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.Principal);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.Principal;
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1275, 710);

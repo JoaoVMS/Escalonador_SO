@@ -16,5 +16,15 @@ namespace Escalonador_SO
         {
             InitializeComponent();
         }
+        private void LeituraArquivo()
+        {
+            string nomeArquivo = "teste.txt";
+        }
+
+        private void LeituraDoArquivoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //ler arquivo e colocar no escalonador
+            //
+        }
     }
 }
