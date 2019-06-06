@@ -3,6 +3,15 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# alteração Gustavo - O github ignora os arquivos com as extensões abaixo
+*.exe.config
+*.exe
+*.pdb
+# Além disso, as pastas Debug e Bin agora não são ignoradas pelo github 
+# Porque eu apaguei a linha que continha:
+#[Dd]ebug/
+#[Bb]in/
+
 # User-specific files
 *.rsuser
 *.suo
@@ -14,7 +23,6 @@
 *.userprefs
 
 # Build results
-[Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
@@ -23,7 +31,6 @@ x86/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
-[Bb]in/
 [Oo]bj/
 [Ll]og/
 
