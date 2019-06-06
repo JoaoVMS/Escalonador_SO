@@ -22,31 +22,7 @@ namespace Escalonador_SO
             ListView[] listViews = { listViewFilaPrioridade1 , listViewFilaPrioridade2, listViewFilaPrioridade3, listViewFilaPrioridade4, listViewFilaPrioridade4, listViewFilaPrioridade6, listViewFilaPrioridade7, listViewFilaPrioridade8, listViewFilaPrioridade9, listViewFilaPrioridade10};
         }
 
-        private void LeituraDoArquivoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            //ler arquivo e colocar no escalonador
-            //Colocar na listview também
-            string nomeArquivo = "processos.txt";
-            Escalonador = new Escalonador(10, 1, 10);
-
-            if (!File.Exists(nomeArquivo))
-                return;
-
-            string[] info;
-
-            //Fazer a leitura do arquivo e organizar entre as 10 listas Circulares
-            using (StreamReader entrada = new StreamReader(nomeArquivo))
-            {
-                while (!entrada.EndOfStream)
-                {
-                    info = entrada.ReadLine().Split(';');
-                    Processo processo = new Processo(Convert.ToInt32(info[0]), info[1], Convert.ToInt32(info[2]), Convert.ToInt32(info[3]));
-                    Escalonador.AdicionarProcesso(processo);
-                    this.AdicionarListView(processo);
-                }
-            }
-        }
-
+        #region Métodos Auxiliares
         /// <summary>
         /// Adiciona o processo ao listView Correto
         /// </summary>
@@ -73,12 +49,39 @@ namespace Escalonador_SO
                 default: break;
             }
         }
+        #endregion
 
+        #region Botões
         private void SairToolStripMenuItem_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("O processo será perdido, tem certeza que deseja fechar o escalonador?", "Sair", MessageBoxButtons.YesNo);
             if (result == System.Windows.Forms.DialogResult.Yes)
                 this.Close();
         }
+        private void LeituraDoArquivoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //ler arquivo e colocar no escalonador
+            //Colocar na listview também
+            string nomeArquivo = "processos.txt";
+            Escalonador = new Escalonador(10, 1, 10);
+
+            if (!File.Exists(nomeArquivo))
+                return;
+
+            string[] info;
+
+            //Fazer a leitura do arquivo e organizar entre as 10 listas Circulares
+            using (StreamReader entrada = new StreamReader(nomeArquivo))
+            {
+                while (!entrada.EndOfStream)
+                {
+                    info = entrada.ReadLine().Split(';');
+                    Processo processo = new Processo(Convert.ToInt32(info[0]), info[1], Convert.ToInt32(info[2]), Convert.ToInt32(info[3]));
+                    Escalonador.AdicionarProcesso(processo);
+                    this.AdicionarListView(processo);
+                }
+            }
+        }
+        #endregion
     }
 }
