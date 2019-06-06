@@ -18,6 +18,8 @@ namespace Escalonador_SO
         public Form1()
         {
             InitializeComponent();
+            //Da pra transformar aquele tanto de listViewers em um vetor, por causa da referência dos objetos ListView
+            ListView[] listViews = { listViewFilaPrioridade1 , listViewFilaPrioridade2, listViewFilaPrioridade3, listViewFilaPrioridade4, listViewFilaPrioridade4, listViewFilaPrioridade6, listViewFilaPrioridade7, listViewFilaPrioridade8, listViewFilaPrioridade9, listViewFilaPrioridade10};
         }
 
         private void LeituraDoArquivoToolStripMenuItem_Click(object sender, EventArgs e)

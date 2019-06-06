@@ -127,6 +127,7 @@
             this.CollumnPrioridade,
             this.CollumnCiclos});
             this.listViewFilaPrioridade10.FullRowSelect = true;
+            this.listViewFilaPrioridade10.GridLines = true;
             this.listViewFilaPrioridade10.Location = new System.Drawing.Point(325, 105);
             this.listViewFilaPrioridade10.Name = "listViewFilaPrioridade10";
             this.listViewFilaPrioridade10.Size = new System.Drawing.Size(291, 151);
@@ -157,18 +158,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.label1.Location = new System.Drawing.Point(29, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
+            this.label1.Size = new System.Drawing.Size(53, 17);
             this.label1.TabIndex = 8;
             this.label1.Text = "CPU 0";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.label2.Location = new System.Drawing.Point(29, 157);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 13);
+            this.label2.Size = new System.Drawing.Size(53, 17);
             this.label2.TabIndex = 9;
             this.label2.Text = "CPU 1";
             // 
@@ -220,6 +223,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(15, 181);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(43, 13);
@@ -433,6 +437,8 @@
             this.columnHeader2,
             this.columnHeader3,
             this.columnHeader4});
+            this.listViewFilaPrioridade9.FullRowSelect = true;
+            this.listViewFilaPrioridade9.GridLines = true;
             this.listViewFilaPrioridade9.Location = new System.Drawing.Point(639, 105);
             this.listViewFilaPrioridade9.Name = "listViewFilaPrioridade9";
             this.listViewFilaPrioridade9.Size = new System.Drawing.Size(291, 151);
@@ -467,6 +473,8 @@
             this.columnHeader14,
             this.columnHeader15,
             this.columnHeader16});
+            this.listViewFilaPrioridade8.FullRowSelect = true;
+            this.listViewFilaPrioridade8.GridLines = true;
             this.listViewFilaPrioridade8.Location = new System.Drawing.Point(956, 105);
             this.listViewFilaPrioridade8.Name = "listViewFilaPrioridade8";
             this.listViewFilaPrioridade8.Size = new System.Drawing.Size(291, 151);
@@ -501,6 +509,8 @@
             this.columnHeader18,
             this.columnHeader19,
             this.columnHeader20});
+            this.listViewFilaPrioridade5.FullRowSelect = true;
+            this.listViewFilaPrioridade5.GridLines = true;
             this.listViewFilaPrioridade5.Location = new System.Drawing.Point(956, 307);
             this.listViewFilaPrioridade5.Name = "listViewFilaPrioridade5";
             this.listViewFilaPrioridade5.Size = new System.Drawing.Size(291, 151);
@@ -535,6 +545,8 @@
             this.columnHeader22,
             this.columnHeader23,
             this.columnHeader24});
+            this.listViewFilaPrioridade6.FullRowSelect = true;
+            this.listViewFilaPrioridade6.GridLines = true;
             this.listViewFilaPrioridade6.Location = new System.Drawing.Point(639, 307);
             this.listViewFilaPrioridade6.Name = "listViewFilaPrioridade6";
             this.listViewFilaPrioridade6.Size = new System.Drawing.Size(291, 151);
@@ -569,6 +581,8 @@
             this.columnHeader34,
             this.columnHeader35,
             this.columnHeader36});
+            this.listViewFilaPrioridade2.FullRowSelect = true;
+            this.listViewFilaPrioridade2.GridLines = true;
             this.listViewFilaPrioridade2.Location = new System.Drawing.Point(639, 508);
             this.listViewFilaPrioridade2.Name = "listViewFilaPrioridade2";
             this.listViewFilaPrioridade2.Size = new System.Drawing.Size(291, 151);
@@ -603,6 +617,8 @@
             this.columnHeader38,
             this.columnHeader39,
             this.columnHeader40});
+            this.listViewFilaPrioridade1.FullRowSelect = true;
+            this.listViewFilaPrioridade1.GridLines = true;
             this.listViewFilaPrioridade1.Location = new System.Drawing.Point(956, 508);
             this.listViewFilaPrioridade1.Name = "listViewFilaPrioridade1";
             this.listViewFilaPrioridade1.Size = new System.Drawing.Size(291, 151);
@@ -637,6 +653,8 @@
             this.columnHeader26,
             this.columnHeader27,
             this.columnHeader28});
+            this.listViewFilaPrioridade3.FullRowSelect = true;
+            this.listViewFilaPrioridade3.GridLines = true;
             this.listViewFilaPrioridade3.Location = new System.Drawing.Point(325, 508);
             this.listViewFilaPrioridade3.Name = "listViewFilaPrioridade3";
             this.listViewFilaPrioridade3.Size = new System.Drawing.Size(291, 151);
@@ -671,6 +689,8 @@
             this.columnHeader30,
             this.columnHeader31,
             this.columnHeader32});
+            this.listViewFilaPrioridade7.FullRowSelect = true;
+            this.listViewFilaPrioridade7.GridLines = true;
             this.listViewFilaPrioridade7.Location = new System.Drawing.Point(325, 307);
             this.listViewFilaPrioridade7.Name = "listViewFilaPrioridade7";
             this.listViewFilaPrioridade7.Size = new System.Drawing.Size(291, 151);
@@ -705,6 +725,8 @@
             this.columnHeader6,
             this.columnHeader7,
             this.columnHeader8});
+            this.listViewFilaSuspesa.FullRowSelect = true;
+            this.listViewFilaSuspesa.GridLines = true;
             this.listViewFilaSuspesa.Location = new System.Drawing.Point(12, 307);
             this.listViewFilaSuspesa.Name = "listViewFilaSuspesa";
             this.listViewFilaSuspesa.Size = new System.Drawing.Size(291, 151);
@@ -739,6 +761,8 @@
             this.columnHeader10,
             this.columnHeader11,
             this.columnHeader12});
+            this.listViewFilaPrioridade4.FullRowSelect = true;
+            this.listViewFilaPrioridade4.GridLines = true;
             this.listViewFilaPrioridade4.Location = new System.Drawing.Point(12, 508);
             this.listViewFilaPrioridade4.Name = "listViewFilaPrioridade4";
             this.listViewFilaPrioridade4.Size = new System.Drawing.Size(291, 151);
