@@ -56,6 +56,7 @@
             this.processosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.criarProcessoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modificarProcessoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.resumirProcessoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.simulaçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.iniciarSimulaçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pausarSimulaçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -115,7 +116,6 @@
             this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.resumirProcessoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Principal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -354,12 +354,19 @@
             this.criarProcessoToolStripMenuItem.Name = "criarProcessoToolStripMenuItem";
             this.criarProcessoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.criarProcessoToolStripMenuItem.Text = "Criar Processo";
+            this.criarProcessoToolStripMenuItem.Click += new System.EventHandler(this.CriarProcessoToolStripMenuItem_Click);
             // 
             // modificarProcessoToolStripMenuItem
             // 
             this.modificarProcessoToolStripMenuItem.Name = "modificarProcessoToolStripMenuItem";
             this.modificarProcessoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.modificarProcessoToolStripMenuItem.Text = "Modificar Processo";
+            // 
+            // resumirProcessoToolStripMenuItem
+            // 
+            this.resumirProcessoToolStripMenuItem.Name = "resumirProcessoToolStripMenuItem";
+            this.resumirProcessoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.resumirProcessoToolStripMenuItem.Text = "Resumir Processo";
             // 
             // simulaçãoToolStripMenuItem
             // 
@@ -790,12 +797,6 @@
             this.columnHeader12.Text = "Ciclos";
             this.columnHeader12.Width = 70;
             // 
-            // resumirProcessoToolStripMenuItem
-            // 
-            this.resumirProcessoToolStripMenuItem.Name = "resumirProcessoToolStripMenuItem";
-            this.resumirProcessoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.resumirProcessoToolStripMenuItem.Text = "Resumir Processo";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -840,6 +841,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.Principal.ResumeLayout(false);
             this.Principal.PerformLayout();
             this.ResumeLayout(false);

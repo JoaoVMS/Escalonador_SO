@@ -83,5 +83,16 @@ namespace Escalonador_SO
             }
         }
         #endregion
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CriarProcessoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Criar novo forms para pegar os dados que a pessoa quiser para criar o novo processo
+            //Pego esse processo, crio, e por meio da prioridade dele encaixo em sua respectiva fila de processos
+        }
     }
 }
