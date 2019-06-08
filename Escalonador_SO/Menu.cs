@@ -32,13 +32,15 @@ namespace Escalonador_SO
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            Form1 informacoes = new Form1();
-            informacoes.Show();
-
-            Thread Adicional = new Thread(() => informacoes.Show());
-
+            Thread Adicional = new Thread(() => abrirJanelaInformacoes());
             Adicional.Name = "Thread Adicional";
+            Adicional.SetApartmentState(ApartmentState.MTA);
             Adicional.Start();
+        }
+
+        private void abrirJanelaInformacoes()
+        {
+            Application.Run(new Form1()); //teste
         }
 
         private void Button7_Click(object sender, EventArgs e)
