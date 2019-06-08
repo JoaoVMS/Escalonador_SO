@@ -13,7 +13,7 @@ namespace Escalonador_SO
         Processo process;
         bool processando;
 
-        public Processo getProcesso
+        public Processo getProcesso 
         {
             set // "processo entrando na cpu"
             {

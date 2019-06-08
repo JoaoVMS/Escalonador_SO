@@ -23,6 +23,7 @@ namespace Escalonador_SO
             this.Quantum = Quantum;
             this.tContexto = tContexto;
             this.sleep = sleep;
+
         }
 
         /// <summary>
@@ -30,6 +31,8 @@ namespace Escalonador_SO
         /// </summary>
         public void Run()
         {
+            CPUs cPUs = new CPUs();
+
             int pos = 0;
             while (!TodosVazia() && pos < Todoscesss.Length) // Enquanto todas as filas de processos não estiverem vazias
             {
@@ -47,7 +50,7 @@ namespace Escalonador_SO
 
                     //Console.WriteLine("Processando: " + processo.ToString());
 
-                    if (CPUs(processo) > 0) // Se o retorno da CPU for maior que 0, o processo foi finalizado
+                    if (cPUs.getProcesso.QtdeCiclos <= 0) // Se o retorno da CPU for maior que 0, o processo foi finalizado
                     {
                         //Console.ForegroundColor = ConsoleColor.DarkGreen;
                         //Console.WriteLine("Processo Finalizado");
