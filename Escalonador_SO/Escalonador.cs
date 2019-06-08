@@ -12,6 +12,7 @@ namespace Escalonador_SO
     {
         public Fila[] Todoscesss { get; set; }
         readonly int Quantum, tContexto, sleep;
+        public bool suspend = false;
 
         public Escalonador(int Quantum, int tContexto, int sleep)
         {
@@ -49,23 +50,30 @@ namespace Escalonador_SO
                     Processo processo = (Processo)(Todoscesss[pos].Retirar()); // Retira o processo em execução da fila de processos
 
                     //Console.WriteLine("Processando: " + processo.ToString());
-
-                    if (cPUs.getProcesso.QtdeCiclos <= 0) // Se o retorno da CPU for maior que 0, o processo foi finalizado
+                    if (this.suspend == true)
                     {
-                        //Console.ForegroundColor = ConsoleColor.DarkGreen;
-                        //Console.WriteLine("Processo Finalizado");
-                        //Console.ForegroundColor = ConsoleColor.White;
-                    }
-                    else // O processo não terminou
-                    {
-                        AdicionarProcesso(processo); // Adiciona o processo em uma nova fila de prioridade (prioridade -1)
-                        //Console.ForegroundColor = ConsoleColor.DarkRed;
-                        //Console.WriteLine("Processo REBAIXADO para prioridade {0}", processo.Prioridade);
-                        //Console.ForegroundColor = ConsoleColor.White;
+                        Controle.fil_susp.Inserir(processo);
                     }
 
+                    else
+                    {
+                        if (cPUs.getProcesso.QtdeCiclos <= 0) // Se o retorno da CPU for maior que 0, o processo foi finalizado
+                        {
+                            //Console.ForegroundColor = ConsoleColor.DarkGreen;
+                            //Console.WriteLine("Processo Finalizado");
+                            //Console.ForegroundColor = ConsoleColor.White;
+                        }
+                        else // O processo não terminou
+                        {
+                            AdicionarProcesso(processo); // Adiciona o processo em uma nova fila de prioridade (prioridade -1)
+                                                         //Console.ForegroundColor = ConsoleColor.DarkRed;
+                                                         //Console.WriteLine("Processo REBAIXADO para prioridade {0}", processo.Prioridade);
+                                                         //Console.ForegroundColor = ConsoleColor.White;
+                        }
+                    }
                     //Console.WriteLine("\n\t\tProcessando Lista de Processos com Prioridade " + (pos + 1));
                     //Console.WriteLine("\n" + Todos[pos].ToString());
+                    this.suspend = false;
                 }
                 pos++;
             }

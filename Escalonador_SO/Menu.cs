@@ -47,5 +47,11 @@ namespace Escalonador_SO
         {
             MessageBox.Show("\nGustavo Ribeiro de Freitas Sena \nJoão Vitor Mendes Soares \nLorena Alves Aguilar \nNathan Ribeiro Ferreira Pinto");
         }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            Controle.Escalonador.suspend = true;
+            MessageBox.Show("Suspensos: \n" + Controle.fil_susp.ToString());
+        }
     }
 }

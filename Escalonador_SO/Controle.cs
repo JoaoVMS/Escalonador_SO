@@ -13,7 +13,8 @@ namespace Escalonador_SO
     {
         public static int sleep = 300, trocaContexto = 200, quantum = 500;
         public static Escalonador Escalonador = new Escalonador(quantum, trocaContexto, sleep);
-
+        //public static Processo proc_aux;
+        public static Fila fil_susp;
         readonly static string nomeArquivo = "processos.txt";
 
     }
