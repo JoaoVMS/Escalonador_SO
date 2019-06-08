@@ -49,6 +49,29 @@ namespace Escalonador_SO
                 default: break;
             }
         }
+
+
+        /// <summary>
+        /// Retira o processo na fila de processos
+        /// </summary>
+        /// <param name="processo">Processo que será retirado</param>
+        //public void RetirarListView(Processo processo)
+        //{
+        //    switch (processo.Prioridade)
+        //    {
+        //        case 1: listViewFilaPrioridade1.Items.RemoveByKey(Convert.ToString(processo.PID)); break;
+        //        case 2: listViewFilaPrioridade2.Items.RemoveByKey(Convert.ToString(processo.PID)); break;
+        //        case 3: listViewFilaPrioridade3.Items.RemoveByKey(Convert.ToString(processo.PID)); break;
+        //        case 4: listViewFilaPrioridade4.Items.RemoveByKey(Convert.ToString(processo.PID)); break;
+        //        case 5: listViewFilaPrioridade5.Items.RemoveByKey(Convert.ToString(processo.PID)); break;
+        //        case 6: listViewFilaPrioridade6.Items.RemoveByKey(Convert.ToString(processo.PID)); break;
+        //        case 7: listViewFilaPrioridade7.Items.RemoveByKey(Convert.ToString(processo.PID)); break;
+        //        case 8: listViewFilaPrioridade8.Items.RemoveByKey(Convert.ToString(processo.PID)); break;
+        //        case 9: listViewFilaPrioridade9.Items.RemoveByKey(Convert.ToString(processo.PID)); break;
+        //        case 10: listViewFilaPrioridade10.Items.RemoveByKey(Convert.ToString(processo.PID)); break;
+        //        default: Console.WriteLine("Erro: "); break;
+        //    }
+        //}
         #endregion
 
         #region Botões
