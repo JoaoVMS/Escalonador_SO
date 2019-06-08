@@ -20,6 +20,7 @@ namespace Escalonador_SO
         public Form1()
         {
             InitializeComponent();
+            LeituraArquivo();
             //Da pra transformar aquele tanto de listViewers em um vetor, por causa da referência dos objetos ListView
             ListView[] listViews = { listViewFilaPrioridade1 , listViewFilaPrioridade2, listViewFilaPrioridade3, listViewFilaPrioridade4, listViewFilaPrioridade4, listViewFilaPrioridade6, listViewFilaPrioridade7, listViewFilaPrioridade8, listViewFilaPrioridade9, listViewFilaPrioridade10};
         }
@@ -88,27 +89,52 @@ namespace Escalonador_SO
         {
             //ler arquivo e colocar no escalonador
             //Colocar na listview também
-            string nomeArquivo = "processos.txt";
-            Escalonador = new Escalonador(10, 1, 10);
-
-            if (!File.Exists(nomeArquivo))
-                return;
-
-            string[] info;
-
-            //Fazer a leitura do arquivo e organizar entre as 10 listas Circulares
-            using (StreamReader entrada = new StreamReader(nomeArquivo))
-            {
-                while (!entrada.EndOfStream)
-                {
-                    info = entrada.ReadLine().Split(';');
-                    Processo processo = new Processo(Convert.ToInt32(info[0]), info[1], Convert.ToInt32(info[2]), Convert.ToInt32(info[3]));
-                    Escalonador.AdicionarProcesso(processo);
-                    this.AdicionarListView(processo);
-                }
-            }
+            LeituraArquivo();
         }
         #endregion
+
+        /// <summary>	
+        /// Aloca o processo na fila de processos correta	
+        /// </summary>	
+        public void LeituraArquivo()	
+        {	
+            if (!File.Exists(Controle.nomeArquivo))	
+            {	
+                //Exibir mensagem de erro "Arquivo não foi encontrado ou não existe."	
+
+                 return;	
+            }	
+
+             //Fazer a leitura do arquivo e organizar entre as 10 filas	
+            using (StreamReader entrada = new StreamReader(Controle.nomeArquivo))	
+            {	
+                string[] info;	
+
+                while (!entrada.EndOfStream)	
+                {	
+                    info = entrada.ReadLine().Split(';');	
+                    try	
+                    {	
+                        if (info.Length == 4)	
+                        {	
+                            Processo processo = new Processo(Convert.ToInt32(info[0]), info[1], Convert.ToInt32(info[2]), Convert.ToInt32(info[3]));	
+                            Controle.Escalonador.AdicionarProcesso(processo);	
+                            AdicionarListView(processo); //Esse this é referente a quê? 	
+                        }	
+                        else	
+                        {	
+                            //Exibir mensagem de erro "falta atributos"	
+
+                         }	
+                    }	
+                    catch (Exception erro)	
+                    {	
+                        //Exibir mensagem de erro de conversão	
+
+                     }	
+                }	
+            }	
+        }	
 
         private void Form1_Load(object sender, EventArgs e)
         {
