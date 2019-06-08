@@ -33,5 +33,10 @@ namespace Escalonador_SO
             Form1 informacoes = new Form1();
             informacoes.Show();
         }
+
+        private void Button7_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("\nGustavo Ribeiro de Freitas Sena \nJoão Vitor Mendes Soares \nLorena Alves Aguilar \nNathan Ribeiro Ferreira Pinto");
+        }
     }
 }
