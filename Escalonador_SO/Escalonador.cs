@@ -52,7 +52,8 @@ namespace Escalonador_SO
                     //Console.WriteLine("Processando: " + processo.ToString());
                     if (this.suspend == true)
                     {
-                        Controle.fil_susp.Inserir(processo);
+                        Controle.FilaProcessosSuspensos.Inserir(processo);
+                        //Adicionar no listView de processos suspensos
                     }
 
                     else
