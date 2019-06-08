@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Todas_as_Estruturas_de_Dados;
+
 
 namespace Escalonador_SO
 {
@@ -29,6 +31,7 @@ namespace Escalonador_SO
         /// <param name="processo">Processo que será adicionado ao listView</param>
         private void AdicionarListView(Processo processo)
         {
+            
             ListViewItem aux = new ListViewItem(Convert.ToString(processo.PID));
             aux.SubItems.Add(processo.Nome);
             aux.SubItems.Add(Convert.ToString(processo.Prioridade));
